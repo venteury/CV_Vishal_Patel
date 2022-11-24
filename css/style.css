@@ -1,0 +1,101 @@
+body {
+  font-size: 20px;
+  margin: 0px;
+  text-align: center;
+  font-family: "Merriweather", serif;
+}
+
+h1 {
+  /* 1em = 100% = 16px */
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  font-family: "Sacramento", cursive;
+  color: #66bfbf;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  color: #66bfbf;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  color: #11999e;
+}
+
+.topContainer {
+  background-color: #e4f9f5;
+  position: relative;
+  padding: 100px;
+}
+
+.topCloud {
+  position: absolute;
+  right: 380px;
+  top: 50px;
+}
+
+.bottomCloud {
+  position: absolute;
+  left: 400px;
+  bottom: 460px;
+}
+
+.mountain {
+  width: 50%;
+  height: auto;
+  margin-top: 60px;
+}
+
+.topContainer p {
+  font-size: 2.5rem;
+  margin-top: 20px;
+  color: #66bfbf;
+}
+
+.middleContainer {
+}
+
+.profile {
+  margin-bottom: 25px;
+}
+
+.profile img {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  margin-top: 25px;
+}
+
+.profile p {
+  margin: 5px auto 5px;
+  width: 650px;
+  text-align: center;
+}
+
+.skill-img {
+  width: 150px;
+  height: 150px;
+}
+
+.languagePic {
+  width: 100px;
+  height: 100px;
+}
+
+.bottomContainer {
+  color: #11999e;
+}
+
+a {
+  box-shadow: inset 0 0 0 0 #11999e;
+  color: #11999e;
+  margin: 0 -0.25rem;
+  padding: 0 0.25rem;
+  transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+a:hover {
+  box-shadow: inset 150px 0 0 0 #11999e;
+  color: white;
+}
